@@ -1,0 +1,174 @@
+favicon: https://cn-sy1.rains3.com/yemenghexo/favicon.ico
+
+banner:
+  enable: true
+  title: 踏着梦走过时光
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+notice:
+  enable: true
+  content: 欢迎光临我的世界
+
+bg_image:
+  enable: true
+  url: https://cn-sy1.rains3.com/yemenghexo/background.jpg
+  # dark:
+  blur: 10px # 设置背景模糊程度
+  opacity: 0.8
+
+# _config.yun.yml
+medium_zoom: true
+
+avatar:
+  enable: true
+  url: https://cn-sy1.rains3.com/yemenghexo/avatar.png
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: ☺️
+    message: 四季花开
+  
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: ri:rss-line
+    color: orange
+  - name: GitHub
+    link: https://github.com/yemenghexo
+    icon: ri:github-line
+    color: '#181717'
+  - name: E-Mail
+    link: mailto:admin@yemengstar.com
+    icon: ri:mail-line
+    color: '#8E71C1'
+  # - name: 微博
+  #   link: #
+  #   icon: ri:weibo-line
+  #   color: '#E6162D'
+  # - name: 豆瓣
+  #   link: #
+  #   icon: ri:douban-line
+  #   color: '#007722'
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=1485292158
+    icon: ri:netease-cloud-music-line
+    color: '#C10D0C'
+  - name: 知乎
+    link: https://www.zhihu.com/people/yemengstar
+    icon: ri:zhihu-line
+    color: '#0084FF'
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/1951763981
+    icon: ri:bilibili-line
+    color: '#FF8EB3'
+  # - name: 微信公众号
+  #   link: #
+  #   icon: ri:wechat-2-line
+  #   color: '#1AAD19'
+
+
+menu:
+  home:
+    path: /
+    icon: ri:home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: ri:archive-line
+    - type: categories
+      path: /categories/
+      icon: ri:folder-2-line
+    - type: tags
+      path: /tags/
+      icon: ri:price-tag-3-line
+  # 自定义内容你可以看云游君提供的文档
+  # custom:
+  #   title: 文档
+  #   path: https://yun.yunyoujun.cn
+  #   icon: ri:settings-line
+
+
+reward:
+  enable: true
+  icon: ri:hand-coin-line
+  comment: 夜梦星尘这么可爱，你真的不考虑考虑嘛？
+  methods:
+    - name: 爱发电
+      path: https://cn-sy1.rains3.com/yemenghexo/afdian-yemenghexo.jpg
+      color: '#00A3EE'
+      icon: https://cn-sy1.rains3.com/yemenghexo/afdianlogo.png
+      link: https://afdian.net/a/yemengstar
+    # - name: 支付宝
+    #   path: https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg
+    #   color: '#00A3EE'
+    #   icon: ri:alipay-line
+      # link: https://xxxx
+    # - name: QQ 支付
+    #   path: 你的QQ收款码
+    #   color: '#12B7F5'
+    #   icon: ri:qq-line
+    # - name: 微信支付
+    #   path: 你的微信收款码
+    #   color: '#2DC100'
+    #   icon: ri:wechat-pay-line
+
+
+footer:
+  since: 2024 # 起始年份
+  # icon:
+  #   name: ri:cloud-line
+  #   animated: true
+  #   color: '#0078E7'
+  #   url: 你的链接
+  #   title: 自拟
+  powered:
+    enable: true # 是否显示主题名称
+  # beian:
+  #   enable: true # 是否显示备案
+  #   # ICP备案
+  #   icp: 苏ICP备xxxxxxxxxx号
+  #   # 公安备案
+  #   gongan:
+  #     enable: true
+  #     text: 苏公网安备XXXXXXXX号
+  #     id: XXXXXXXX
+
+  live_time: # 运行时间
+    enable: true
+    prefix: 感谢陪伴
+    suffix: (●'◡'●)
+    start_time: '2024-03-20T00:00:00' # 开始时间
+
+  support: # 支持，例如又拍云联盟之类的
+    enable: true
+    title: 雨云
+    link: https://www.rainyun.com/YeMeng_
+    logo: https://cn-sy1.rains3.com/yemenghexo/rainyunlogo.png
+    prefix: 本站由
+    suffix: 提供 对象存储 服务
+
+comment:
+  enable: true
+  tips:
+    - 若您想及时得到回复提醒，可以通过邮箱联系夜梦。
+  candidates:
+    - Twikoo
+
+twikoo:
+  enable: true
+  envId: 108.165.113.36:28080 #
+  region: # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数
+  option: # 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+
+#下面是自定义文本，你可以自由填写
+  # custom_text: YourText <a href="yourLink" rel="noopener" target="_blank">Description</a>
